@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Rate_Analysis</title><meta name="generator" content="MATLAB 9.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-01-03"><meta name="DC.source" content="Rate_Analysis.m"><style type="text/css">
+      --><title>Rate_Analysis</title><meta name="generator" content="MATLAB 9.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-01-09"><meta name="DC.source" content="Rate_Analysis.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -67,7 +67,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Rate Detailed Summary</a></li><li><a href="#3">Normalized Charge Rate Plot</a></li><li><a href="#4">Final Charge Rates for Every Replicate</a></li><li><a href="#5">Final Discharge Capacity for Every Replicate</a></li><li><a href="#6">Average Normalized Charge Rate at Square Root of Every Scan Rate</a></li><li><a href="#7">Final Charge Rates (average)</a></li><li><a href="#8">Charge Efficiency at Every Scan Rate for Every Replicate</a></li><li><a href="#9">Charge Efficiency at Final Scan Rate for Every Replicate</a></li><li><a href="#10">Normalized Charge Efficiency</a></li><li><a href="#11">Average Normalized Charge Efficiency at the Highest Scan Rate</a></li><li><a href="#14">Normalized Discharge Rate</a></li><li><a href="#15">Final Discharge Rates for Every Replicate</a></li><li><a href="#16">Average Normalized Discharge Rate at Square Root of Every Scan Rate</a></li><li><a href="#17">Final Discharge Rates (average)</a></li><li><a href="#18">Polarization Analysis</a></li><li><a href="#19">Polarization Values at Scan Rate 0.1 mV/s for Every Replicate</a></li><li><a href="#20">Polarization values at scan rate 0.1 mV/s (average)</a></li><li><a href="#23">Overlay Charge Plots</a></li><li><a href="#26">2. CA</a></li><li><a href="#29">OCV Plots</a></li><li><a href="#30">OCV Average Plot</a></li></ul></div><h2 id="1">Rate Detailed Summary</h2><p>This document contains the Carbon-Lignen Phase 2 summary graphs and data analysis.</p><h2 id="3">Normalized Charge Rate Plot</h2><p>This will be a single graph with 8 lines. Each line will consist of 6 points</p><img vspace="5" hspace="5" src="Rate_Analysis_01.png" alt=""> <h2 id="4">Final Charge Rates for Every Replicate</h2><pre class="codeoutput">Final Charge Rate for Every Replicate
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Rate Detailed Summary</a></li><li><a href="#3">Normalized Charge Rate Plot</a></li><li><a href="#4">Final Charge Rates for Every Replicate</a></li><li><a href="#5">Final Discharge Capacity for Every Replicate</a></li><li><a href="#6">Average Normalized Charge Rate at Square Root of Every Scan Rate</a></li><li><a href="#7">Final Charge Rates (average)</a></li><li><a href="#8">Charge Efficiency at Every Scan Rate for Every Replicate</a></li><li><a href="#9">Charge Efficiency at Final Scan Rate for Every Replicate</a></li><li><a href="#10">Corrected Charge Efficiency at the Highest Scan Rate for Every Replicate</a></li><li><a href="#13">Normalized Discharge Rate</a></li><li><a href="#14">Final Discharge Rates for Every Replicate</a></li><li><a href="#15">Average Normalized Discharge Rate at Square Root of Every Scan Rate</a></li><li><a href="#16">Final Discharge Rates (average)</a></li><li><a href="#17">Polarization Analysis</a></li><li><a href="#18">Polarization Values at Scan Rate 0.1 mV/s for Every Replicate</a></li><li><a href="#19">Polarization values at scan rate 0.1 mV/s (average)</a></li><li><a href="#22">Overlay Charge Plots</a></li><li><a href="#25">2. CA</a></li><li><a href="#28">OCV Plots</a></li><li><a href="#29">OCV Average Plot</a></li></ul></div><h2 id="1">Rate Detailed Summary</h2><p>This document contains the Carbon-Lignen summary graphs for rate analysis. This script was last updated on 01/09/2023</p><h2 id="3">Normalized Charge Rate Plot</h2><p>This will be a single graph with 8 lines. Each line will consist of 6 points</p><img vspace="5" hspace="5" src="Rate_Analysis_01.png" alt=""> <h2 id="4">Final Charge Rates for Every Replicate</h2><pre class="codeoutput">Final Charge Rate for Every Replicate
 Replicate 1 (AH16) of Formula Van-HT High (Control) at 0.5 mV/s: -3.651570
 Replicate 2 (AH21) of Formula Van-HT High (Control) at 0.5 mV/s: -3.622647
 Replicate 3 (AH07) of Formula Van-HT High (Control) at 0.5 mV/s: -3.826122
@@ -1037,7 +1037,7 @@ Replicate 3 (FL) of Formula Indulin AT Low at 0.50 mV/s: 68.791549%
 88.625411
 68.791549
 
-</pre><img vspace="5" hspace="5" src="Rate_Analysis_02.png" alt=""> <h2 id="9">Charge Efficiency at Final Scan Rate for Every Replicate</h2><pre class="codeoutput">
+</pre><h2 id="9">Charge Efficiency at Final Scan Rate for Every Replicate</h2><p>Print the charge efficiency at the final scan rate</p><pre class="codeoutput">
 Charge Efficiency at Final Scan Rate 
 Replicate 1 (AH) of Formula Van-HT High (Control) at 0.50 mV/s: 64.376661%
 Replicate 2 (AH) of Formula Van-HT High (Control) at 0.50 mV/s: 63.762919%
@@ -1135,9 +1135,106 @@ Replicate 3 (FL) of Formula Indulin AT Low at 0.50 mV/s: 68.791549%
 70.29
 68.79
 
-</pre><h2 id="10">Normalized Charge Efficiency</h2><p>This section of the code will normalize the efficiency.</p><h2 id="11">Average Normalized Charge Efficiency at the Highest Scan Rate</h2><pre class="codeoutput">
-Normalized Charge Efficiency at Every Scan Rate
-</pre><h2 id="14">Normalized Discharge Rate</h2><p>Store the scan rate values</p><img vspace="5" hspace="5" src="Rate_Analysis_03.png" alt=""> <h2 id="15">Final Discharge Rates for Every Replicate</h2><pre class="codeoutput">
+</pre><h2 id="10">Corrected Charge Efficiency at the Highest Scan Rate for Every Replicate</h2><p>This section of the code will correct the efficiency.</p><pre class="codeoutput">
+Corrected Charge Efficiency at the Highest Scan Rate for Every Replicate
+Replicate 1 (AH16) of formula Van-HT High (Control) at 0.50 mV/s: 61.672682% 
+Replicate 2 (AH21) of formula Van-HT High (Control) at 0.50 mV/s: 61.462072% 
+Replicate 3 (AH07) of formula Van-HT High (Control) at 0.50 mV/s: 60.036477% 
+
+Replicate 1 (AL13) of formula Van-HT Low at 0.50 mV/s: 68.516046% 
+Replicate 2 (AL07) of formula Van-HT Low at 0.50 mV/s: 68.312033% 
+Replicate 3 (AL14) of formula Van-HT Low at 0.50 mV/s: 67.377238% 
+
+Replicate 1 (BH09) of formula Van-A High at 0.50 mV/s: 61.063699% 
+Replicate 2 (BH16) of formula Van-A High at 0.50 mV/s: 61.596555% 
+Replicate 3 (BH08) of formula Van-A High at 0.50 mV/s: 58.655272% 
+
+Replicate 1 (BL15) of formula Van-A Low at 0.50 mV/s: 68.835706% 
+Replicate 2 (BL04) of formula Van-A Low at 0.50 mV/s: 70.030407% 
+Replicate 3 (BL02) of formula Van-A Low at 0.50 mV/s: 68.644946% 
+
+Replicate 1 (CH10) of formula Van-DCA High at 0.50 mV/s: 64.701254% 
+Replicate 2 (CH24) of formula Van-DCA High at 0.50 mV/s: 66.196828% 
+Replicate 3 (CH22) of formula Van-DCA High at 0.50 mV/s: 65.287193% 
+
+Replicate 1 (CL06) of formula Van-DCA Low at 0.50 mV/s: 66.109067% 
+Replicate 2 (CL02) of formula Van-DCA Low at 0.50 mV/s: 66.925661% 
+Replicate 3 (CL03) of formula Van-DCA Low at 0.50 mV/s: 66.972543% 
+
+Replicate 1 (DH03) of formula Van-A + Indulin High at 0.50 mV/s: 58.894653% 
+Replicate 2 (DH21) of formula Van-A + Indulin High at 0.50 mV/s: 58.593299% 
+Replicate 3 (DH13) of formula Van-A + Indulin High at 0.50 mV/s: 60.090424% 
+
+Replicate 1 (DL18) of formula Van-A + Indulin Low at 0.50 mV/s: 66.404166% 
+Replicate 2 (DL03) of formula Van-A + Indulin Low at 0.50 mV/s: 68.602749% 
+Replicate 3 (DL02) of formula Van-A + Indulin Low at 0.50 mV/s: 69.269749% 
+
+Replicate 1 (EH23) of formula S-Drill CL High at 0.50 mV/s: 64.097279% 
+Replicate 2 (EH03) of formula S-Drill CL High at 0.50 mV/s: 62.146187% 
+Replicate 3 (EH20) of formula S-Drill CL High at 0.50 mV/s: 64.182122% 
+
+Replicate 1 (EL22) of formula S-Drill CL Low at 0.50 mV/s: 68.494234% 
+Replicate 2 (EL23) of formula S-Drill CL Low at 0.50 mV/s: 67.660760% 
+Replicate 3 (EL08) of formula S-Drill CL Low at 0.50 mV/s: 67.994509% 
+
+Replicate 1 (FH20) of formula Indulin AT High at 0.50 mV/s: 55.949409% 
+Replicate 2 (FH07) of formula Indulin AT High at 0.50 mV/s: 51.909776% 
+Replicate 3 (FH16) of formula Indulin AT High at 0.50 mV/s: 57.594047% 
+
+Replicate 1 (FL01) of formula Indulin AT Low at 0.50 mV/s: 67.847454% 
+Replicate 2 (FL25) of formula Indulin AT Low at 0.50 mV/s: 66.478946% 
+Replicate 3 (FL03) of formula Indulin AT Low at 0.50 mV/s: 67.286542% 
+
+
+61.672682 
+61.462072 
+60.036477 
+
+68.516046 
+68.312033 
+67.377238 
+
+61.063699 
+61.596555 
+58.655272 
+
+68.835706 
+70.030407 
+68.644946 
+
+64.701254 
+66.196828 
+65.287193 
+
+66.109067 
+66.925661 
+66.972543 
+
+58.894653 
+58.593299 
+60.090424 
+
+66.404166 
+68.602749 
+69.269749 
+
+64.097279 
+62.146187 
+64.182122 
+
+68.494234 
+67.660760 
+67.994509 
+
+55.949409 
+51.909776 
+57.594047 
+
+67.847454 
+66.478946 
+67.286542 
+
+</pre><h2 id="13">Normalized Discharge Rate</h2><p>Store the scan rate values</p><img vspace="5" hspace="5" src="Rate_Analysis_02.png" alt=""> <h2 id="14">Final Discharge Rates for Every Replicate</h2><pre class="codeoutput">
 Final Discharge Rates for Every Replicate 
 Replicate 1 (AH16) of Formula Van-HT High (Control) at 0.5 mV/s: 4.856179
 Replicate 2 (AH21) of Formula Van-HT High (Control) at 0.5 mV/s: 4.773968
@@ -1224,7 +1321,7 @@ Replicate 3 (FL03) of Formula Indulin AT Low at 0.5 mV/s: 4.891105
 5.081743 
 4.891105 
 
-</pre><h2 id="16">Average Normalized Discharge Rate at Square Root of Every Scan Rate</h2><pre class="codeoutput">Formula Van-HT High (Control) at square root of scan rate 0.010000 (0.1000): 0.773347 
+</pre><h2 id="15">Average Normalized Discharge Rate at Square Root of Every Scan Rate</h2><pre class="codeoutput">Formula Van-HT High (Control) at square root of scan rate 0.010000 (0.1000): 0.773347 
 Formula Van-HT High (Control) at square root of scan rate 0.020000 (0.1414): 1.106055 
 Formula Van-HT High (Control) at square root of scan rate 0.050000 (0.2236): 1.710092 
 Formula Van-HT High (Control) at square root of scan rate 0.100000 (0.3162): 2.433740 
@@ -1308,7 +1405,7 @@ Formula Indulin AT Low at square root of scan rate 0.100000 (0.3162): 2.442195
 Formula Indulin AT Low at square root of scan rate 0.200000 (0.4472): 3.375134 
 Formula Indulin AT Low at square root of scan rate 0.500000 (0.7071): 5.122295 
 
-</pre><h2 id="17">Final Discharge Rates (average)</h2><pre class="codeoutput">Discharge rate at 0.5 mV/s of formula Van-HT High (Control): 5.171261 
+</pre><h2 id="16">Final Discharge Rates (average)</h2><pre class="codeoutput">Discharge rate at 0.5 mV/s of formula Van-HT High (Control): 5.171261 
 Discharge rate at 0.5 mV/s of formula Van-HT Low: 5.149297 
 Discharge rate at 0.5 mV/s of formula Van-A High: 4.412975 
 Discharge rate at 0.5 mV/s of formula Van-A Low: 4.809777 
@@ -1332,7 +1429,7 @@ Discharge rate at 0.5 mV/s of formula Indulin AT Low: 5.122295
 5.218035 
 4.189190 
 5.122295 
-</pre><h2 id="18">Polarization Analysis</h2><p>Substract the two peaks (MB_03 - MB_04) for every rep of every formula</p><img vspace="5" hspace="5" src="Rate_Analysis_04.png" alt=""> <h2 id="19">Polarization Values at Scan Rate 0.1 mV/s for Every Replicate</h2><pre class="codeoutput">
+</pre><h2 id="17">Polarization Analysis</h2><p>Substract the two peaks (MB_03 - MB_04) for every rep of every formula</p><img vspace="5" hspace="5" src="Rate_Analysis_03.png" alt=""> <h2 id="18">Polarization Values at Scan Rate 0.1 mV/s for Every Replicate</h2><pre class="codeoutput">
 Polarization Values at Scan Rate 0.1 mV/s for Every Replicate
 Replicate 1 (AH16) of Formula Van-HT High (Control) at 0.1 mV/s: 0.209288 
 Replicate 2 (AH21) of Formula Van-HT High (Control) at 0.1 mV/s: 0.215714 
@@ -1418,7 +1515,7 @@ Replicate 3 (FL03) of Formula Indulin AT Low at 0.1 mV/s: 0.184670
 0.181964 
 0.182188 
 0.184670 
-</pre><h2 id="20">Polarization values at scan rate 0.1 mV/s (average)</h2><pre class="codeoutput">
+</pre><h2 id="19">Polarization values at scan rate 0.1 mV/s (average)</h2><pre class="codeoutput">
 Polarization of formula               Van-HT High (Control) at scan rate 0.1: 0.200653 
 Polarization of formula                          Van-HT Low at scan rate 0.1: 0.178727 
 Polarization of formula                          Van-A High at scan rate 0.1: 0.234971 
@@ -1443,7 +1540,7 @@ Polarization of formula                      Indulin AT Low at scan rate 0.1: 0.
 0.182678 
 0.265805 
 0.182941 
-</pre><h2 id="23">Overlay Charge Plots</h2><p>Initialize xVar, yVar, bCharMass</p><pre class="codeoutput">Warning: Ignoring extra legend entries. 
+</pre><h2 id="22">Overlay Charge Plots</h2><p>Initialize xVar, yVar, bCharMass</p><pre class="codeoutput">Warning: Ignoring extra legend entries. 
 Warning: Ignoring extra legend entries. 
 Warning: Ignoring extra legend entries. 
 Warning: Ignoring extra legend entries. 
@@ -1455,11 +1552,11 @@ Warning: Ignoring extra legend entries.
 Warning: Ignoring extra legend entries. 
 Warning: Ignoring extra legend entries. 
 Warning: Ignoring extra legend entries. 
-</pre><img vspace="5" hspace="5" src="Rate_Analysis_05.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_06.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_07.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_08.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_09.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_10.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_11.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_12.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_13.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_14.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_15.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_16.png" alt=""> <h2 id="26">2. CA</h2><p>Define x and y variables</p><img vspace="5" hspace="5" src="Rate_Analysis_17.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_18.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_19.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_20.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_21.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_22.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_23.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_24.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_25.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_26.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_27.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_28.png" alt=""> <h2 id="29">OCV Plots</h2><p>Run general replicate</p><img vspace="5" hspace="5" src="Rate_Analysis_29.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_30.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_31.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_32.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_33.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_34.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_35.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_36.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_37.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_38.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_39.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_40.png" alt=""> <h2 id="30">OCV Average Plot</h2><p>Plot averages</p><img vspace="5" hspace="5" src="Rate_Analysis_41.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022b</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="Rate_Analysis_04.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_05.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_06.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_07.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_08.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_09.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_10.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_11.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_12.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_13.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_14.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_15.png" alt=""> <h2 id="25">2. CA</h2><p>Define x and y variables</p><img vspace="5" hspace="5" src="Rate_Analysis_16.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_17.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_18.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_19.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_20.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_21.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_22.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_23.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_24.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_25.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_26.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_27.png" alt=""> <h2 id="28">OCV Plots</h2><p>Run general replicate</p><img vspace="5" hspace="5" src="Rate_Analysis_28.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_29.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_30.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_31.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_32.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_33.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_34.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_35.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_36.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_37.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_38.png" alt=""> <img vspace="5" hspace="5" src="Rate_Analysis_39.png" alt=""> <h2 id="29">OCV Average Plot</h2><p>Plot averages</p><img vspace="5" hspace="5" src="Rate_Analysis_40.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Rate Detailed Summary
-% This document contains the Carbon-Lignen Phase 2 summary graphs and data
-% analysis. 
+% This document contains the Carbon-Lignen summary graphs for rate
+% analysis. This script was last updated on 01/09/2023
 function[] = Rate_Analysis()
 % This serves as the main function will run both the plotting and data
 % analysis functions for all steps run on the VMP-3e. 
@@ -2761,15 +2858,15 @@ function[asPlotTitles, results, voltage_current_data] = runMB_03DataAnalysis(sDa
             % Store the ranges in a matrix
             aanRanges = [anBeginIndex anEndIndex]; 
 
-            % Plot the correct sequences
-            for iRange = 1 : length(aanRanges(:, 1))
-                % Get the beginning and ending indices
-                nBegin = aanRanges(iRange, 1); 
-                nEnd = aanRanges(iRange, 2); 
-
-                % Plot 
-                plot(xHour(nBegin : nEnd), yCurrent(nBegin : nEnd), 'c.')
-            end
+%             % Plot the correct sequences
+%             for iRange = 1 : length(aanRanges(:, 1))
+%                 % Get the beginning and ending indices
+%                 nBegin = aanRanges(iRange, 1); 
+%                 nEnd = aanRanges(iRange, 2); 
+% 
+%                 % Plot 
+%                 plot(xHour(nBegin : nEnd), yCurrent(nBegin : nEnd), 'c.')
+%             end
              
 
             % Initialize iteration limit & variation threshold for each ns
@@ -2951,7 +3048,6 @@ function[asPlotTitles, results, voltage_current_data] = runMB_03DataAnalysis(sDa
     end
 
     %% Charge Efficiency at Final Scan Rate for Every Replicate
-
     % Print the charge efficiency at the final scan rate
     fprintf("\nCharge Efficiency at Final Scan Rate \n")
     for iFormula = 1 : nNumOfFormulas
@@ -2983,24 +3079,17 @@ function[asPlotTitles, results, voltage_current_data] = runMB_03DataAnalysis(sDa
         fprintf("\n")
     end
 
-
-            
-%     %% Average Charge Efficiency at Final Scan Rate
-%     % Calculate the average over every formula at every scan rate
-% 
-%     % Produce plots that are similar to normalized charge rate
-
-    %% Normalized Charge Efficiency
-    % This section of the code will normalize the efficiency. 
+    %% Corrected Charge Efficiency at the Highest Scan Rate for Every Replicate
+    % This section of the code will correct the efficiency. 
 
     % Initialize the correlation factor
-    fCorrFactor = 1; 
+    fCorrFactor = -0.3601; 
 
     % Initialize the global average discharge capacity
-    fGlobAvgDisCap = 1; 
+    fGlobAvgDisCap = 84.9487; 
 
     % Initialize the global average efficiency
-    fGlobAvgEff = 1; 
+    fGlobAvgEff = 62.6; 
 
     for iFormula = 1 : nNumOfFormulas
         for iReplicate = 1 : nNumOfReplicates
@@ -3016,15 +3105,37 @@ function[asPlotTitles, results, voltage_current_data] = runMB_03DataAnalysis(sDa
             % Calculate the corrected efficiency
             Formula(iFormula).Replicate(iReplicate).fCorrectedEfficiency = ...
                 fChargeEfficiency - (fDeltaC_d * fCorrFactor * fGlobAvgEff); 
-
         end
     end
 
-    
-
-    %% Average Normalized Charge Efficiency at the Highest Scan Rate
-    fprintf("\nNormalized Charge Efficiency at Every Scan Rate\n")
+    % Corrected Charge Efficiency at the Highest Scan Rate for Every Replicate
+    fprintf("\nCorrected Charge Efficiency at the Highest Scan Rate for Every Replicate\n")
     for iFormula = 1 : nNumOfFormulas
+        sFormulaName = AverageNormalizedPeakCurrent(iFormula).sFormula; 
+        for iReplicate = 1 : nNumOfReplicates
+            % Get the Cup ID
+            sCupID = time_current_data(iReplicate).Step(nProcess).Key(iFormula).cupID; 
+
+            % Get the final corrected efficiency
+            fCorrectedEfficiency = Formula(iFormula).Replicate(iReplicate).fCorrectedEfficiency; 
+
+            % Print out the normalized charge efficiency
+            fprintf("Replicate %d (%s) of formula %s at %0.2f mV/s: %f%% \n", iReplicate, sCupID, sFormulaName, afScanRates(end), fCorrectedEfficiency); 
+        end
+        fprintf("\n")
+    end
+    fprintf("\n")
+
+    % Print column of values
+    for iFormula = 1 : nNumOfFormulas
+        for iReplicate = 1 : nNumOfReplicates
+            % Get the final corrected efficiency
+            fCorrectedEfficiency = Formula(iFormula).Replicate(iReplicate).fCorrectedEfficiency; 
+
+            % Print out the normalized charge efficiency
+            fprintf("%f \n", fCorrectedEfficiency); 
+        end
+        fprintf("\n")
     end
 end
 
